@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="newdetails" customModule="Shwimah" customModuleProvider="target">
+            <connections>
+                <outlet property="advertiseimg" destination="x3q-LQ-rlT" id="WIw-Wy-qNo"/>
+                <outlet property="img" destination="Xpb-Ly-LzS" id="TLg-66-kl9"/>
+                <outlet property="lbl1" destination="cYi-C6-1XR" id="jRp-bD-lKW"/>
+                <outlet property="lbl2" destination="nvD-Jn-Qqd" id="qWt-zO-QXR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="٦" translatesAutoresizingMaskIntoConstraints="NO" id="Xpb-Ly-LzS">
+                    <rect key="frame" x="0.0" y="44" width="414" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="Xa8-Q5-49J"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="بيت العرب يرعي38سباقا للخيل العربيه الاصيله" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cYi-C6-1XR">
+                    <rect key="frame" x="5" y="264" width="404" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="eZe-AK-1k2"/>
+                    </constraints>
+                    <color key="textColor" red="0.11838444319999999" green="0.40198901300000001" blue="0.56455576419999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvD-Jn-Qqd">
+                    <rect key="frame" x="0.0" y="324" width="414" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="pjc-cv-f2j"/>
+                    </constraints>
+                    <string key="text">اعلن نادي  الصيد والفروسيه  يوم الخميس الماضي عن جدول سباقات الموسم القادم والذي اشتمل علي 38   شوطا لجياد الانتاج المحلي بدعم ورعايه كريمه من العرب  </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="علي٣٨ شوطا لجياد الانتاج المحلي بدعم ورعايه كريمه من بيدات العرب  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lg2-uy-sXG">
+                    <rect key="frame" x="0.0" y="354" width="414" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad" translatesAutoresizingMaskIntoConstraints="NO" id="x3q-LQ-rlT">
+                    <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                    <color key="backgroundColor" red="0.2246203423" green="0.27265611290000002" blue="0.44404673579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="irs-H1-Aii"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cYi-C6-1XR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="1VR-DP-ntZ"/>
+                <constraint firstItem="cYi-C6-1XR" firstAttribute="top" secondItem="Xpb-Ly-LzS" secondAttribute="bottom" constant="20" id="2LC-Oz-YiA"/>
+                <constraint firstItem="Xpb-Ly-LzS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="7BF-Yo-KxR"/>
+                <constraint firstItem="Lg2-uy-sXG" firstAttribute="width" secondItem="nvD-Jn-Qqd" secondAttribute="width" id="89J-Ab-j82"/>
+                <constraint firstItem="Lg2-uy-sXG" firstAttribute="trailing" secondItem="nvD-Jn-Qqd" secondAttribute="trailing" id="KZI-3M-KsT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="nvD-Jn-Qqd" secondAttribute="trailing" id="Phz-HZ-NMG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cYi-C6-1XR" secondAttribute="trailing" constant="5" id="SGC-11-Utc"/>
+                <constraint firstItem="Xpb-Ly-LzS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ssv-dO-aw1"/>
+                <constraint firstItem="Lg2-uy-sXG" firstAttribute="leading" secondItem="nvD-Jn-Qqd" secondAttribute="leading" id="XCs-km-jhF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="x3q-LQ-rlT" secondAttribute="bottom" id="dkk-eM-fGL"/>
+                <constraint firstItem="Lg2-uy-sXG" firstAttribute="top" secondItem="nvD-Jn-Qqd" secondAttribute="bottom" id="g7W-At-2LK"/>
+                <constraint firstItem="Lg2-uy-sXG" firstAttribute="height" secondItem="nvD-Jn-Qqd" secondAttribute="height" id="p0v-bU-whS"/>
+                <constraint firstItem="nvD-Jn-Qqd" firstAttribute="top" secondItem="cYi-C6-1XR" secondAttribute="bottom" constant="30" id="pZB-Qu-NOr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="x3q-LQ-rlT" secondAttribute="trailing" id="qJh-cq-7z6"/>
+                <constraint firstItem="x3q-LQ-rlT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xRO-Mm-gcG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Xpb-Ly-LzS" secondAttribute="trailing" id="xc3-xC-xjh"/>
+                <constraint firstItem="nvD-Jn-Qqd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="y1O-qb-nwa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="66.666666666666671" y="91.741071428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ad" width="375" height="51"/>
+        <image name="٦" width="297" height="170"/>
+    </resources>
+</document>

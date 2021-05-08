@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="gTV-IL-0wX" customClass="CollectionCell" customModule="Shwimah" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="161" height="219"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="161" height="219"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTV-ba-Upz">
+                        <rect key="frame" x="53" y="121" width="55" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PT9-u3-hOo">
+                        <rect key="frame" x="0.0" y="0.0" width="161" height="111"/>
+                        <connections>
+                            <action selector="didtabbtn:" destination="gTV-IL-0wX" eventType="touchUpInside" id="p5d-F6-W73"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="PT9-u3-hOo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6PH-S3-9PL"/>
+                <constraint firstItem="nTV-ba-Upz" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="6n0-3X-ySA"/>
+                <constraint firstItem="nTV-ba-Upz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="53" id="70k-aU-LPa"/>
+                <constraint firstAttribute="trailing" secondItem="PT9-u3-hOo" secondAttribute="trailing" id="KNE-ty-q9K"/>
+                <constraint firstItem="nTV-ba-Upz" firstAttribute="top" secondItem="PT9-u3-hOo" secondAttribute="bottom" constant="10" id="Y28-fk-fz8"/>
+                <constraint firstItem="nTV-ba-Upz" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="b1g-hC-o9D"/>
+                <constraint firstItem="PT9-u3-hOo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eDv-JG-xAB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="161" height="219"/>
+            <connections>
+                <outlet property="datbtn" destination="PT9-u3-hOo" id="v9c-9v-YnF"/>
+                <outlet property="daylbl" destination="nTV-ba-Upz" id="qgW-qj-doV"/>
+            </connections>
+            <point key="canvasLocation" x="36.956521739130437" y="27.790178571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>
